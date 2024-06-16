@@ -3,6 +3,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+img {
+    max-width: 100%;
+}
 a{
     text-decoration: none;
 
@@ -129,7 +132,9 @@ a{
 }
 .text-warning{
     color: #FFC107;
-    
+    text-align: left;
+    font-size: 50px;
+    font-weight: 700;
 }
 .description-prolab{
     width: 950px;
@@ -274,5 +279,288 @@ font-size: 35px;
     border-bottom-color: 2px solid #624bff;
     
 }
+.election-section-title h1{
+width: 648px;
+margin: auto;
+text-align: center;
+font-weight: 600;
+font-size: 35px;
+
+}
+.election-section-title p {
+width: 688px;
+margin: auto;
+text-align: center;
+margin-top: 28px;
+margin-bottom:28px;
+font-size: 15px;
+color: #6c757d;
+
+}
+.election-box p{
+text-align: center;
+width: 147.73px;
+color: #6c757d;
+margin: 0px 0px 24px;
+font-size: 16px;
+
+}
+.election-box h3{
+    text-align: center;
+    width: 140px;
+    color:#111;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin: 0px 0px 8px;
+
+
+}
+.img-election{
+    width: 58px;
+}
+.election-box{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 33%;
+background: #FFF;
+position: relative;
+transition: all 0.3s;
+border-radius: 8px;
+width: 100%;
+z-index: 99;
+padding: 30px;
+border-top:1px solid #e9ecef;
+border-bottom: 1px solid #e9ecef;
+border-left: 1px solid #e9ecef;
+position: relative;
+}
+#election-section{
+    width: 100%;
+    height: 100%;
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+.testimonials-section-title{
+    padding-bottom: 50px;
+}
+.testimonials-section-title h1{
+width:648px;
+margin: auto;
+text-align: center;
+font-weight: 700;
+font-size: 35px;
+color: #FFFFFF;
+
+}
+.testimonials-section-title p{
+width: 688px;
+margin: auto;
+text-align: center;
+margin-top: 28px;
+margin-bottom:28px;
+font-size: 16px;
+color: #FFFFFF80;
+
+}
+#testimonials-section{
+    width: 100%;
+    height: 100%;
+    background-color: #151e28;
+    padding: 100px 0;
+}
+.testimonials-box{
+    color: white;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    background: #FFF;
+    position: relative;
+    transition: all 0.3s;
+    border-radius: 8px;
+    width: 100%;
+    z-index: 99;
+    padding: 30px;
+    border-top: 1px solid #e9ecef;
+    border-bottom:  1px solid #e9ecef;
+    border-left:  1px solid #e9ecef;
+    border-right:  1px solid #e9ecef;
+    position: relative;
+}
+.testimonials-box p{
+    color: #151e28;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 16px;
+}
+.people-img{
+    width: 200px;
+    display: flex;
+    margin-top: 30px;
+}
+.people-img h4{
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 15px;
+
+}
+.people-img span{
+    font-weight: 700;
+    font-size: 10px;
+    color: #FFFFFF80;
+}
+.people-img img{
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+}
+.people-name{
+    color:#FFFFFF;
+    display: flex;
+}
+.advertising-cart ul{
+    display: flex;
+    gap: 55px;
+}
+#advertising-section{
+    width: 100%;
+    height: 100%;
+    background-color:#FFFFFF;
+    padding: 30px 0;
+    
+
+}
+.information-section-title h1{
+    width: 908px;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+}
+.information-section-title p{
+width: 928px;
+margin: auto;
+text-align: center;
+margin-top: 28px;
+margin-bottom:28px;
+font-size: 16px;
+color: #6c757d;
+}
+#information-section{
+width: 100%;
+height: 100%;
+background-color: #f8f9fa;
+padding: 100px 0;
+}
+.information-section-inner-box{
+    border: 1px solid #e9ecef;
+    width: 80%;
+    border-radius: 10px;
+}
+.information-section-inner-box img{
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+}
+
+.information-section-inner-box-content{
+    padding: 32px;
+}
+.information-section-inner-box-content h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.information-section-inner-box-content div{
+    color: #6c757d;
+    display: flex;
+    gap: 10px;
+}
+.information-section-inner-box-content div span{
+    font-weight: 700;
+    color: #6c757d;
+    font-size: 13px;
+}
+.information-section-inner-box-content div div{
+    width: 2px;
+    height: 15px;
+    margin-top: 3px;
+    background-color: #e9ecef;
+}
+.information-section-inner-box-content span a{
+    color: #624BFF;
+}
+.information-section-inner-box-content-text{
+    color: #6c757d;
+    font-size: 16px;
+    font-family:"Inter" " sans-serif";
+    font-weight: 400;
+    margin-top: 15px;
+    width: 105%;
+
+}
+.information-section-inner-box-content-link{
+    color: #624BFF;
+    border-bottom: 2px solid #624BFF;
+    font-weight: 700;
+    font-size: 14px;
+}
+.chllenge-section-title h1{
+ width: 908px;
+margin: auto;
+text-align: center;
+font-weight: 600;
+font-size: 35px;
+
+}
+.chllenge-section-title p{
+width:928px ;
+margin: auto;
+text-align: center;
+margin-top: 28px;
+margin-bottom:28px;
+font-size: 16px;
+color: #6c757d;
+}
+.chllenge-section-inner-boxs{
+    text-align: center;
+    background: #F7F9FF;
+    position: relative;
+    transition: all 0.3s;
+    border-radius: 3px;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    padding:100px; 
+    margin-bottom: 10px;
+}
+.chllenge-section-inner-boxs-content-link{
+    color: #624BFF;
+    border-bottom: 2px solid #624BFF;
+    font-weight: 700;
+    font-size: 14px;
+}
+.chllenge-section-text h1{
+    font-size: 25px;
+    color: black;
+        
+}
+.chllenge-section-inner-boxs-content-info-link{
+    color: #624BFF;  
+    font-weight: 700;
+    font-size: 14px;
+}
+.chllenge-section-text p{
+    color: #6c757d;
+}
+.chllenge-section-img{
+    width: 32px;
+   margin: auto;
+   margin-bottom: 55px;
+}
+
 
 
