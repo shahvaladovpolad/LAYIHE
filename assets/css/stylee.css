@@ -561,6 +561,115 @@ color: #6c757d;
    margin: auto;
    margin-bottom: 55px;
 }
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
+.footer{
+    background-color: #151e28;
+    height: 500px;
+}
+.footer hr{
+    color: #e9ecef;
+    margin: 0 0 40px 0;
+    border-width: 1px;
+}
+.footer-tittle{
+    display: flex;
+    align-items: center;
+    border-color: 2px solid rgb(254, 0, 0) ;
+    padding: 3.5rem 0 3.5rem 0 ;
+    justify-content: center;
+    text-align: center;
+}
+.footer-tittle .col-4 img{
+    display: flex;
+}
+.footer-tittle .col-8{
+    display: flex;
+    gap: 30px;
+}
+.footer-tittle h3 a{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-tittle-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.footer-tittle-input input{
+    padding: .75rem 1.25rem;
+    font-weight: 400;
+    border-radius: 4px;
+    border: none;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    width: 100%;
+    font-size: 14px;
+}
+.footer-tittle-input button{
+    position: absolute;
+    color: #fff;
+    background-color: #624bff;
+    padding: .70rem 1.25rem;
+    border: none;
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    right: -65px;
+}
+.footer .row .col-6 p{
+    color: hsla(0, 0%, 100%, .5);
+    width: 82%;
+    line-height: 1.6;
+}
+.footer .row .col-6 div div i{
+    color: #ffd;
+    margin: 0;
+    margin-right: 20px;
+}
+.footer .row .col-6 div div{
+    color: hsla(0, 0%, 100%, .5);
+    display: flex;
+    width: 40%;
+    margin: 0;
+    font-size: 18px;
+}
+.footer .row .col-6 div{
+    display: flex;
+    margin-top: 40px;
+}
+.footer .row .col-2 li a{
+    color: hsla(0, 0%, 100%, .5);
+    font-size: 15px;
+}
+.footer .row .col-2 li a i{
+    padding-right: 10px;
+    font-size: 13px;
+
+}
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.footer-end p{
+    color: hsla(0, 0%, 100%, .5);
+    font-size: 12px;
+}
+
+
 
 
 
